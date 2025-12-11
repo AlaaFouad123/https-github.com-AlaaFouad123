@@ -5,7 +5,8 @@
 **AI Instructor • Game Developer • Tech Lover**
 
 <!-- Naruto Header GIF -->
-<img src="(https://usagif.com/wp-content/uploads/2022/fzk5d/naruto-gif-wallpaper-1920-1080px-42.gif)" />
+<img src="https://usagif.com/wp-content/uploads/2022/fzk5d/naruto-gif-wallpaper-1920-1080px-42.gif" width="500" />
+
 
 ---
 
