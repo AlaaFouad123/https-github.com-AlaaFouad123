@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- naruto-pink.svg — stylized original Naruto-inspired head (pink theme) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- background -->
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff0f6"/>
+      <stop offset="1" stop-color="#ffe6f2"/>
+    </linearGradient>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="14" flood-color="#ffb6da" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+  <!-- head shadow circle -->
+  <circle cx="300" cy="260" r="200" fill="#ffd9ee" filter="url(#softShadow)"/>
+
+  <!-- hair (spiky, stylized) -->
+  <g transform="translate(0, -20)">
+    <path d="M120 220 C150 90 200 80 300 110 C400 80 450 90 480 220 C430 200 380 210 300 210 C220 210 170 200 120 220 Z"
+          fill="#ffb86b" stroke="#ff8c42" stroke-width="4"/>
+    <!-- extra spikes -->
+    <path d="M150 240 L110 180 L140 210 Z" fill="#ffb86b" stroke="#ff8c42" stroke-width="3"/>
+    <path d="M450 240 L490 180 L460 210 Z" fill="#ffb86b" stroke="#ff8c42" stroke-width="3"/>
+  </g>
+
+  <!-- forehead protector (band) -->
+  <rect x="110" y="200" width="380" height="46" rx="10" fill="#2b2b2b"/>
+  <rect x="120" y="210" width="360" height="26" rx="6" fill="#111" opacity="0.95"/>
+  <ellipse cx="300" cy="223" rx="68" ry="20" fill="#d9d9d9" stroke="#bdbdbd" stroke-width="2"/>
+  <!-- leaf symbol simplified -->
+  <path d="M300 212 C312 208 328 210 328 218 C328 226 312 232 300 230 C288 228 272 226 272 218 C272 210 288 208 300 212 Z"
+        fill="#222" transform="translate(0,0)"/>
+
+  <!-- face -->
+  <ellipse cx="300" cy="320" rx="150" ry="160" fill="#fff4f8" stroke="#ffd1e8" stroke-width="3"/>
+
+  <!-- eyes -->
+  <g fill="#2b2b2b">
+    <ellipse cx="245" cy="320" rx="22" ry="14" fill="#241a1a"/>
+    <ellipse cx="355" cy="320" rx="22" ry="14" fill="#241a1a"/>
+    <!-- eye sparkles -->
+    <circle cx="238" cy="315" r="4" fill="#fff"/>
+    <circle cx="348" cy="315" r="4" fill="#fff"/>
+  </g>
+
+  <!-- nose and mouth -->
+  <path d="M300 340 q-6 12 -12 0" fill="none" stroke="#ff9fbf" stroke-width="3" stroke-linecap="round"/>
+  <path d="M275 365 q25 18 50 0" fill="none" stroke="#ff8aa8" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- whisker marks (Naruto signature) -->
+  <g stroke="#ff7aa3" stroke-width="5" stroke-linecap="round">
+    <path d="M200 335 q30 -6 50 0" fill="none"/>
+    <path d="M200 350 q30 -6 50 0" fill="none"/>
+    <path d="M400 335 q-30 -6 -50 0" fill="none"/>
+    <path d="M400 350 q-30 -6 -50 0" fill="none"/>
+  </g>
+
+  <!-- cheeks pink -->
+  <circle cx="210" cy="355" r="14" fill="#ffd6e8" opacity="0.9"/>
+  <circle cx="390" cy="355" r="14" fill="#ffd6e8" opacity="0.9"/>
+
+  <!-- collar (orange jacket style, but pink tint to match girly theme) -->
+  <path d="M160 430 q140 80 280 0 q-20 40 -140 40 q-120 0 -140 -40z" fill="#ff9ecf" stroke="#ff78b3" stroke-width="3"/>
+
+  <!-- headband ties (flowing ribbons) -->
+  <path d="M120 205 q-30 -20 -60 0 q30 -10 60 0z" fill="#ff9ecf" opacity="0.9"/>
+  <path d="M480 205 q30 -20 60 0 q-30 -10 -60 0z" fill="#ff9ecf" opacity="0.9"/>
+
+  <!-- subtle blush -->
+  <radialGradient id="blush" cx="50%" cy="50%">
+    <stop offset="0" stop-color="#ffd1e8" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#ffd1e8" stop-opacity="0"/>
+  </radialGradient>
+  <ellipse cx="245" cy="338" rx="45" ry="22" fill="url(#blush)" opacity="0.6"/>
+  <ellipse cx="355" cy="338" rx="45" ry="22" fill="url(#blush)" opacity="0.6"/>
+
+  <!-- small sparkle near the title area -->
+  <g transform="translate(470,70)">
+    <polygon points="6,0 8,6 14,8 8,10 6,16 4,10 -2,8 4,6" fill="#fff3fb" opacity="0.9"/>
+  </g>
+
+  <!-- small label (optional) -->
+  <text x="300" y="560" font-family="Verdana" font-size="20" text-anchor="middle" fill="#ff6fa6" opacity="0.9">Alaa — Shinobi of Tech</text>
+</svg>
